@@ -41,4 +41,20 @@
         </plugins>
     </build>
 
+    <dependencies>
+        <dependency>
+            <groupId>net.sf.saxon</groupId>
+            <artifactId>Saxon-HE</artifactId>
+            <version>10.5</version>
+        </dependency>
+        <dependency>
+            <groupId>name.dmaus.schxslt</groupId>
+            <artifactId>schxslt</artifactId>
+            <version>1.8.2</version>
+        </dependency>
+        <!-- Thanks for using https://jar-download.com -->
+    </dependencies>
+
+
+
 </project>

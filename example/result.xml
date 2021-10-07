@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svrl:schematron-output xmlns:error="https://doi.org/10.5281/zenodo.1495494#error"
+                        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:schxslt="https://doi.org/10.5281/zenodo.1495494"
+                        xmlns:schxslt-api="https://doi.org/10.5281/zenodo.1495494#api"
+                        xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <svrl:metadata xmlns:dct="http://purl.org/dc/terms/"
+                  xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <dct:creator>
+         <dct:Agent>
+            <skos:prefLabel>SAXON/HE 10.5</skos:prefLabel>
+         </dct:Agent>
+      </dct:creator>
+      <dct:created>2021-09-27T10:55:18.8768104+03:00</dct:created>
+      <dct:source>
+         <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/">
+            <dct:creator>
+               <dct:Agent>
+                  <skos:prefLabel>SchXslt/1.8.2 SAXON/HE 10.5</skos:prefLabel>
+                  <schxslt.compile.typed-variables xmlns="https://doi.org/10.5281/zenodo.1495494#">true</schxslt.compile.typed-variables>
+               </dct:Agent>
+            </dct:creator>
+            <dct:created>2021-09-27T10:52:06.4044241+03:00</dct:created>
+         </rdf:Description>
+      </dct:source>
+   </svrl:metadata>
+   <svrl:active-pattern documents="file:/C:/Users/Anastasia/Desktop/sdfghjk/TestApp/example.xml"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="title | shortdesc"/>
+   <svrl:successful-report location="/Q{}topic[1]/Q{}title[1]/Q{}b[1]" role="info" test="b">
+      <svrl:text> Bold is not allowed in title
+                element.</svrl:text>
+   </svrl:successful-report>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="title | shortdesc"/>
+   <svrl:successful-report location="/Q{}topic[1]/Q{}shortdesc[1]/Q{}b[1]"
+                           role="info"
+                           test="b">
+      <svrl:text> Bold is not allowed in shortdesc
+                element.</svrl:text>
+   </svrl:successful-report>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="title | shortdesc"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="ul"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:successful-report location="/Q{}topic[1]/Q{}body[1]/Q{}section[1]/Q{}ul[1]/Q{}li[1]"
+                           role="warn"
+                           test="ends-with(text()[last()], ';')">
+      <svrl:text> Semicolon is not allowed after list
+                item.</svrl:text>
+   </svrl:successful-report>
+   <svrl:fired-rule context="xref[@scope = 'external']"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="xref[@scope = 'external']"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="xref[@scope = 'external']"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="xref[@scope = 'external']"/>
+   <svrl:failed-assert location="/Q{}topic[1]/Q{}body[1]/Q{}section[1]/Q{}p[3]/Q{}xref[1]"
+                       role="warn"
+                       test="matches(@href, '^http(s?)://')">
+      <svrl:text> An external link should start
+                with http(s).</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="title | shortdesc"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="table"/>
+   <svrl:failed-assert location="/Q{}topic[1]/Q{}body[1]/Q{}section[2]/Q{}table[1]"
+                       test="$minColumsNo &gt;= $reqColumsNo">
+      <svrl:text>Cells are missing. (The number of cells for
+                each row must be 3)</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="title | shortdesc"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="title | shortdesc"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="ul"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="ul"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="ul"/>
+   <svrl:failed-assert location="/Q{}topic[1]/Q{}body[1]/Q{}section[3]/Q{}ol[1]/Q{}li[2]/Q{}ul[1]"
+                       role="warn"
+                       test="count(li) &gt; 1">
+      <svrl:text> A list must have more than one item
+            </svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="ul"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="ul"/>
+   <svrl:failed-assert location="/Q{}topic[1]/Q{}body[1]/Q{}section[3]/Q{}ol[1]/Q{}li[4]/Q{}ul[1]"
+                       role="warn"
+                       test="count(li) &gt; 1">
+      <svrl:text> A list must have more than one item
+            </svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="ul"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:successful-report location="/Q{}topic[1]/Q{}body[1]/Q{}section[3]/Q{}p[2]/Q{}ul[1]/Q{}li[1]/Q{}p[1]/text()[1]"
+                           role="info"
+                           test="matches(., '(http|www)\S+')         and local-name(parent::node()) != 'xref'">
+      <svrl:text>
+                The link should be an an xref element</svrl:text>
+   </svrl:successful-report>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:successful-report location="/Q{}topic[1]/Q{}body[1]/Q{}section[3]/Q{}p[2]/Q{}ul[1]/Q{}li[2]/Q{}p[1]/text()[1]"
+                           role="info"
+                           test="matches(., '(http|www)\S+')         and local-name(parent::node()) != 'xref'">
+      <svrl:text>
+                The link should be an an xref element</svrl:text>
+   </svrl:successful-report>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="li"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:successful-report location="/Q{}topic[1]/Q{}body[1]/Q{}section[3]/Q{}p[2]/Q{}ul[1]/Q{}li[3]/Q{}p[1]/text()[1]"
+                           role="info"
+                           test="matches(., '(http|www)\S+')         and local-name(parent::node()) != 'xref'">
+      <svrl:text>
+                The link should be an an xref element</svrl:text>
+   </svrl:successful-report>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+   <svrl:fired-rule context="text()"/>
+</svrl:schematron-output>

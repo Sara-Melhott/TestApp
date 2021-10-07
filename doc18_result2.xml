@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svrl:schematron-output xmlns:error="https://doi.org/10.5281/zenodo.1495494#error"
+                        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:schxslt="https://doi.org/10.5281/zenodo.1495494"
+                        xmlns:schxslt-api="https://doi.org/10.5281/zenodo.1495494#api"
+                        xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <svrl:metadata xmlns:dct="http://purl.org/dc/terms/"
+                  xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <dct:creator>
+         <dct:Agent>
+            <skos:prefLabel>SAXON/HE 10.5</skos:prefLabel>
+         </dct:Agent>
+      </dct:creator>
+      <dct:created>2021-09-28T14:51:25.493985+03:00</dct:created>
+      <dct:source>
+         <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/">
+            <dct:creator>
+               <dct:Agent>
+                  <skos:prefLabel>SchXslt/1.8.2 SAXON/HE 10.5</skos:prefLabel>
+                  <schxslt.compile.typed-variables xmlns="https://doi.org/10.5281/zenodo.1495494#">true</schxslt.compile.typed-variables>
+               </dct:Agent>
+            </dct:creator>
+            <dct:created>2021-09-28T14:44:09.8490565+03:00</dct:created>
+         </rdf:Description>
+      </dct:source>
+   </svrl:metadata>
+   <svrl:active-pattern documents="file:/C:/Users/Anastasia/Desktop/sdfghjk/TestApp/data.xml"/>
+   <svrl:fired-rule context="and/is-null-or-empty|or/is-null-or-empty|not/is-null-or-empty"/>
+   <svrl:successful-report location="/Q{}document-data[1]/Q{}select[4]/Q{}select-where[1]/Q{}and[1]/Q{}is-null-or-empty[1]"
+                           test="ancestor::select-where">
+      <svrl:text>
+                Ошибка. Тег is-null-or-empty не должен находится.
+            </svrl:text>
+   </svrl:successful-report>
+</svrl:schematron-output>

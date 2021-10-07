@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svrl:schematron-output xmlns:error="https://doi.org/10.5281/zenodo.1495494#error"
+                        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                        xmlns:schxslt="https://doi.org/10.5281/zenodo.1495494"
+                        xmlns:schxslt-api="https://doi.org/10.5281/zenodo.1495494#api"
+                        xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <svrl:metadata xmlns:dct="http://purl.org/dc/terms/"
+                  xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+      <dct:creator>
+         <dct:Agent>
+            <skos:prefLabel>SAXON/HE 10.5</skos:prefLabel>
+         </dct:Agent>
+      </dct:creator>
+      <dct:created>2021-10-06T12:23:26.7268999+03:00</dct:created>
+      <dct:source>
+         <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/">
+            <dct:creator>
+               <dct:Agent>
+                  <skos:prefLabel>SchXslt/1.8.2 SAXON/HE 10.5</skos:prefLabel>
+                  <schxslt.compile.typed-variables xmlns="https://doi.org/10.5281/zenodo.1495494#">true</schxslt.compile.typed-variables>
+               </dct:Agent>
+            </dct:creator>
+            <dct:created>2021-10-06T12:21:52.7245649+03:00</dct:created>
+         </rdf:Description>
+      </dct:source>
+   </svrl:metadata>
+   <svrl:active-pattern documents="file:/C:/Users/Anastasia/Desktop/sdfghjk/TestApp/content.xml"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+   <svrl:fired-rule context="if"/>
+   <svrl:fired-rule context="if-what"/>
+   <svrl:fired-rule context="equals|not-equals|greater|greater-or-equals|less|less-or-equals"/>
+   <svrl:fired-rule context="typed-value"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+   <svrl:fired-rule context="typed-value"/>
+   <svrl:fired-rule context="if"/>
+   <svrl:fired-rule context="if-what"/>
+   <svrl:fired-rule context="equals|not-equals|greater|greater-or-equals|less|less-or-equals"/>
+   <svrl:fired-rule context="typed-value"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+   <svrl:fired-rule context="typed-value"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+   <svrl:fired-rule context="rows-binder"/>
+   <svrl:fired-rule context="select"/>
+   <svrl:fired-rule context="select-what"/>
+   <svrl:fired-rule context="table-column"/>
+   <svrl:fired-rule context="select-from"/>
+   <svrl:fired-rule context="binder-content"/>
+   <svrl:fired-rule context="bind"/>
+   <svrl:fired-rule context="table-column"/>
+   <svrl:fired-rule context="if"/>
+   <svrl:fired-rule context="if-what"/>
+   <svrl:fired-rule context="is-null|is-not-null"/>
+   <svrl:fired-rule context="typed-value"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+   <svrl:fired-rule context="if"/>
+   <svrl:fired-rule context="if-what"/>
+   <svrl:fired-rule context="is-null-or-empty"/>
+   <svrl:fired-rule context="select"/>
+   <svrl:fired-rule context="select-what"/>
+   <svrl:fired-rule context="table-column"/>
+   <svrl:fired-rule context="select-from"/>
+   <svrl:fired-rule context="rows-binder"/>
+   <svrl:fired-rule context="select"/>
+   <svrl:fired-rule context="select-what"/>
+   <svrl:fired-rule context="select-from"/>
+   <svrl:fired-rule context="binder-content"/>
+   <svrl:fired-rule context="bind"/>
+   <svrl:fired-rule context="table-column"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+   <svrl:fired-rule context="rows-binder"/>
+   <svrl:fired-rule context="select"/>
+   <svrl:fired-rule context="select-what"/>
+   <svrl:fired-rule context="table-column"/>
+   <svrl:fired-rule context="select-from"/>
+   <svrl:fired-rule context="binder-content"/>
+   <svrl:fired-rule context="bind"/>
+   <svrl:fired-rule context="table-column"/>
+   <svrl:fired-rule context="rows-binder"/>
+   <svrl:fired-rule context="select"/>
+   <svrl:fired-rule context="select-what"/>
+   <svrl:fired-rule context="table-column"/>
+   <svrl:fired-rule context="select-from"/>
+   <svrl:fired-rule context="binder-content"/>
+   <svrl:fired-rule context="bind"/>
+   <svrl:fired-rule context="table-column"/>
+   <svrl:fired-rule context="if"/>
+   <svrl:fired-rule context="if-what"/>
+   <svrl:fired-rule context="equals|not-equals|greater|greater-or-equals|less|less-or-equals"/>
+   <svrl:fired-rule context="typed-value"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+   <svrl:fired-rule context="typed-value"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+   <svrl:fired-rule context="binder-content-viewer"/>
+</svrl:schematron-output>

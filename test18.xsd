@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema targetNamespace="http://www.yarsec.ru/xmlns/data/1.0" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!--Определение простых элементов -->
+
+    <xs:element name="type" type="xs:string"/>
+    <xs:element name="show-binder-content" type="xs:string"/>
+
+    <xs:element name="if-no-outer-status" type="xs:string"/>
+    <xs:element name="odt" type="xs:string"/>
+    <xs:element name="all" type="xs:element"/>
+    <xs:element name="distinct" />
+
+    <xs:element name="id" type="xs:string"/>
+    <xs:element name="db" type="xs:string"/>
+    <xs:element name="table-name" type="xs:string"/>
+    <xs:element name="column-name" type="xs:string"/>
+    <xs:element name="data-id" type="xs:string"/>
+
+
+    <!-- >Определение составных элементов -->
+    <xs:element name="select-from">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="db" minOccurs="0"/>
+                <xs:element ref="table-name" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="data-id" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="binder-content-viewer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="data-id"/>
+                <xs:element ref="table-name"  minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="actual">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="binder-content-viewer"/>
+                <xs:element ref="if-no-outer-status"/>
+            </xs:sequence>
+            <!-- текст 0-? -->
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="is-null-or-empty">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="select"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="select">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="id" minOccurs="0"/>
+                <xs:element ref="select-from" minOccurs="0"/>
+                <xs:element ref="actual" minOccurs="0"/>
+                <xs:element ref="select-what"/>
+                <xs:element ref="select-where" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="select-what">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="all" minOccurs="0"/>
+                <xs:element ref="distinct" minOccurs="0"/>
+                <xs:element ref="column-name" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="table-column" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="select-where">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="and" minOccurs="0"/>
+                <xs:element ref="equals" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="and" >
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="is-null-or-empty" minOccurs="0" maxOccurs="2"/>
+                <xs:element ref="equals" minOccurs="0" maxOccurs="2"/>
+                <xs:element ref="and" minOccurs="0" maxOccurs="2"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="equals">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="table-column" minOccurs="0"/>
+                <xs:element ref="column-name" minOccurs="0"/>
+                <xs:element ref="select" minOccurs="0"/>
+                <xs:element ref="typed-value" maxOccurs="2"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="typed-value">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="type"/>
+                <xs:element ref="value" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="value" type="AContend"/>
+    <xs:element name="table-column">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="table-name"/>
+                <xs:element ref="column-name"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="if">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="if-else"/>
+                <xs:element ref="if-then"/>
+                <xs:element ref="if-what"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="if-what">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element ref="is-null-or-empty" minOccurs="0"/>
+                <xs:element ref="equals" minOccurs="0"/>
+                <xs:element ref="and" minOccurs="0"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="if-then" type="AContend"/>
+    <xs:element name="if-else" type="AContend"/>
+    <xs:element name="binder-content" type="AContend"/>
+    <xs:element name="void-binder">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="binder-content"/>
+                <xs:element ref="id" minOccurs="0"/>
+                <xs:element ref="show-binder-content" minOccurs="0"/>
+                <xs:element ref="actual" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="rows-binder" >
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="binder-content"/>
+                <xs:element ref="select" minOccurs="0"/>
+                <xs:element ref="id" minOccurs="0"/>
+                <xs:element ref="show-binder-content" minOccurs="0"/>
+                <xs:element ref="actual" minOccurs="0"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="comment" type="xs:string"/>
+    <xs:element name="input">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="id"/>
+                <xs:element ref="comment"/>
+                <xs:element ref="typed-value"/>
+                <xs:element ref="bind"  minOccurs="0"/>
+                <xs:element ref="nullable"  minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="bind-capital"/>
+    <xs:element name="bind">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="table-column" minOccurs="0"/>
+                <xs:element ref="column-name" minOccurs="0"/>
+                <xs:element ref="bind-capital" minOccurs="0"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nullable" type="xs:element"/>
+    <xs:element name="input-request">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="comment" minOccurs="0"/>
+                <xs:element ref="id" minOccurs="0"/>
+                <xs:element ref="select"/>
+                <xs:element ref="input" maxOccurs="unbounded"/>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="AContend">
+        <xs:sequence>
+            <xs:element ref="odt" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="select" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="binder-content-viewer" minOccurs="0" maxOccurs="unbounded"/>
+
+            <xs:element ref="if" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="void-binder" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="rows-binder" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="bind" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element ref="input-request" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="document-data" type="AContend"/>
+</xs:schema>

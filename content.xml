@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document-content xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="doc18.xsd">
+    <odt>&lt;office:document-content xmlns:office=&quot;urn:oasis:names:tc:opendocument:xmlns:office:1.0&quot; xmlns:style=&quot;urn:oasis:names:tc:opendocument:xmlns:style:1.0&quot; xmlns:text=&quot;urn:oasis:names:tc:opendocument:xmlns:text:1.0&quot; xmlns:table=&quot;urn:oasis:names:tc:opendocument:xmlns:table:1.0&quot; xmlns:draw=&quot;urn:oasis:names:tc:opendocument:xmlns:drawing:1.0&quot; xmlns:fo=&quot;urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:meta=&quot;urn:oasis:names:tc:opendocument:xmlns:meta:1.0&quot; xmlns:number=&quot;urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0&quot; xmlns:svg=&quot;urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0&quot; xmlns:chart=&quot;urn:oasis:names:tc:opendocument:xmlns:chart:1.0&quot; xmlns:dr3d=&quot;urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0&quot; xmlns:math=&quot;http://www.w3.org/1998/Math/MathML&quot; xmlns:form=&quot;urn:oasis:names:tc:opendocument:xmlns:form:1.0&quot; xmlns:script=&quot;urn:oasis:names:tc:opendocument:xmlns:script:1.0&quot; xmlns:ooo=&quot;http://openoffice.org/2004/office&quot; xmlns:ooow=&quot;http://openoffice.org/2004/writer&quot; xmlns:oooc=&quot;http://openoffice.org/2004/calc&quot; xmlns:dom=&quot;http://www.w3.org/2001/xml-events&quot; xmlns:xforms=&quot;http://www.w3.org/2002/xforms&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:rpt=&quot;http://openoffice.org/2005/report&quot; xmlns:of=&quot;urn:oasis:names:tc:opendocument:xmlns:of:1.2&quot; xmlns:xhtml=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:grddl=&quot;http://www.w3.org/2003/g/data-view#&quot; xmlns:tableooo=&quot;http://openoffice.org/2009/table&quot; xmlns:field=&quot;urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0&quot; xmlns:loext=&quot;urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0&quot;&gt; 	&lt;office:scripts/&gt; 	&lt;office:font-face-decls&gt;	&lt;style:font-face style:name=&quot;Wingdings&quot; svg:font-family=&quot;Wingdings&quot; style:font-pitch=&quot;variable&quot; style:font-charset=&quot;x-symbol&quot;/&gt;	&lt;style:font-face style:name=&quot;Symbol&quot; svg:font-family=&quot;Symbol&quot; style:font-family-generic=&quot;roman&quot; style:font-pitch=&quot;variable&quot; style:font-charset=&quot;x-symbol&quot;/&gt;	&lt;style:font-face style:name=&quot;Wingdings1&quot; svg:font-family=&quot;Wingdings&quot; style:font-family-generic=&quot;system&quot; style:font-pitch=&quot;variable&quot; style:font-charset=&quot;x-symbol&quot;/&gt;	&lt;style:font-face style:name=&quot;OpenSymbol1&quot; svg:font-family=&quot;OpenSymbol&quot;/&gt;	&lt;style:font-face style:name=&quot;Times New Roman&quot; svg:font-family=&quot;Times New Roman&quot;/&gt;	&lt;style:font-face style:name=&quot;Courier New1&quot; svg:font-family=&quot;&amp;apos;Courier New&amp;apos;&quot; style:font-family-generic=&quot;modern&quot;/&gt;	&lt;style:font-face style:name=&quot;FreeSans&quot; svg:font-family=&quot;FreeSans&quot; style:font-family-generic=&quot;swiss&quot;/&gt;	&lt;style:font-face style:name=&quot;Courier New&quot; svg:font-family=&quot;&amp;apos;Courier New&amp;apos;&quot; style:font-family-generic=&quot;modern&quot; style:font-pitch=&quot;fixed&quot;/&gt;	&lt;style:font-face style:name=&quot;OpenSymbol&quot; svg:font-family=&quot;OpenSymbol&quot; style:font-pitch=&quot;variable&quot;/&gt;	&lt;style:font-face style:name=&quot;Arial Unicode MS1&quot; svg:font-family=&quot;&amp;apos;Arial Unicode MS&amp;apos;&quot; style:font-family-generic=&quot;roman&quot; style:font-pitch=&quot;variable&quot;/&gt;	&lt;style:font-face style:name=&quot;Times New Roman&quot; svg:font-family=&quot;Times New Roman&quot; style:font-family-generic=&quot;roman&quot; style:font-pitch=&quot;variable&quot;/&gt;	&lt;style:font-face style:name=&quot;Arial&quot; svg:font-family=&quot;Arial&quot; style:font-family-generic=&quot;swiss&quot; style:font-pitch=&quot;variable&quot;/&gt;	&lt;style:font-face style:name=&quot;Arial Unicode MS&quot; svg:font-family=&quot;&amp;apos;Arial Unicode MS&amp;apos;&quot; style:font-family-generic=&quot;swiss&quot; style:font-pitch=&quot;variable&quot;/&gt;	&lt;style:font-face style:name=&quot;Lucida Sans&quot; svg:font-family=&quot;&amp;apos;Lucida Sans&amp;apos;&quot; style:font-family-generic=&quot;swiss&quot; style:font-pitch=&quot;variable&quot;/&gt;	&lt;style:font-face style:name=&quot;Lucida Sans Unicode1&quot; svg:font-family=&quot;&amp;apos;Lucida Sans Unicode&amp;apos;&quot; style:font-family-generic=&quot;swiss&quot; style:font-pitch=&quot;variable&quot;/&gt;	&lt;style:font-face style:name=&quot;Tahoma&quot; svg:font-family=&quot;Tahoma&quot; style:font-family-generic=&quot;swiss&quot; style:font-pitch=&quot;variable&quot;/&gt;	&lt;style:font-face style:name=&quot;Lucida Sans Unicode&quot; svg:font-family=&quot;&amp;apos;Lucida Sans Unicode&amp;apos;&quot; style:font-family-generic=&quot;system&quot; style:font-pitch=&quot;variable&quot;/&gt;	&lt;style:font-face style:name=&quot;MS Mincho&quot; svg:font-family=&quot;&amp;apos;MS Mincho&amp;apos;&quot; style:font-family-generic=&quot;system&quot; style:font-pitch=&quot;variable&quot;/&gt;	&lt;style:font-face style:name=&quot;OpenSymbol2&quot; svg:font-family=&quot;OpenSymbol&quot; style:font-family-generic=&quot;system&quot; style:font-pitch=&quot;variable&quot;/&gt;	&lt;style:font-face style:name=&quot;Tahoma1&quot; svg:font-family=&quot;Tahoma&quot; style:font-family-generic=&quot;system&quot; style:font-pitch=&quot;variable&quot;/&gt; 	&lt;/office:font-face-decls&gt; 	&lt;office:automatic-styles&gt;	&lt;style:style style:name=&quot;Таблица1&quot; style:family=&quot;table&quot;&gt;	&lt;style:table-properties style:width=&quot;18cm&quot; style:rel-width=&quot;100%&quot; fo:margin-left=&quot;0cm&quot; table:align=&quot;left&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица1.A&quot; style:family=&quot;table-column&quot;&gt;	&lt;style:table-column-properties style:column-width=&quot;8.999cm&quot; style:rel-column-width=&quot;5102*&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица1.B&quot; style:family=&quot;table-column&quot;&gt;	&lt;style:table-column-properties style:column-width=&quot;9.001cm&quot; style:rel-column-width=&quot;5103*&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица1.A1&quot; style:family=&quot;table-cell&quot;&gt;	&lt;style:table-cell-properties fo:padding=&quot;0.097cm&quot; fo:border=&quot;none&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица2&quot; style:family=&quot;table&quot;&gt;	&lt;style:table-properties style:width=&quot;18cm&quot; style:rel-width=&quot;100%&quot; fo:margin-left=&quot;0cm&quot; table:align=&quot;left&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица2.A&quot; style:family=&quot;table-column&quot;&gt;	&lt;style:table-column-properties style:column-width=&quot;2.06cm&quot; style:rel-column-width=&quot;1168*&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица2.B&quot; style:family=&quot;table-column&quot;&gt;	&lt;style:table-column-properties style:column-width=&quot;6.932cm&quot; style:rel-column-width=&quot;3930*&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица2.C&quot; style:family=&quot;table-column&quot;&gt;	&lt;style:table-column-properties style:column-width=&quot;4.332cm&quot; style:rel-column-width=&quot;2456*&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица2.D&quot; style:family=&quot;table-column&quot;&gt;	&lt;style:table-column-properties style:column-width=&quot;4.676cm&quot; style:rel-column-width=&quot;2651*&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица2.1&quot; style:family=&quot;table-row&quot;&gt;	&lt;style:table-row-properties style:keep-together=&quot;true&quot; fo:keep-together=&quot;auto&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица2.A1&quot; style:family=&quot;table-cell&quot;&gt;	&lt;style:table-cell-properties style:vertical-align=&quot;top&quot; fo:padding=&quot;0.101cm&quot; fo:border-left=&quot;0.002cm solid #000000&quot; fo:border-right=&quot;none&quot; fo:border-top=&quot;0.002cm solid #000000&quot; fo:border-bottom=&quot;0.002cm solid #000000&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица2.D1&quot; style:family=&quot;table-cell&quot;&gt;	&lt;style:table-cell-properties style:vertical-align=&quot;top&quot; fo:padding=&quot;0.101cm&quot; fo:border=&quot;0.002cm solid #000000&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица2.A2&quot; style:family=&quot;table-cell&quot;&gt;	&lt;style:table-cell-properties style:vertical-align=&quot;top&quot; fo:padding=&quot;0.101cm&quot; fo:border-left=&quot;0.002cm solid #000000&quot; fo:border-right=&quot;none&quot; fo:border-top=&quot;none&quot; fo:border-bottom=&quot;0.002cm solid #000000&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица2.D2&quot; style:family=&quot;table-cell&quot;&gt;	&lt;style:table-cell-properties style:vertical-align=&quot;top&quot; fo:padding=&quot;0.101cm&quot; fo:border-left=&quot;0.002cm solid #000000&quot; fo:border-right=&quot;0.002cm solid #000000&quot; fo:border-top=&quot;none&quot; fo:border-bottom=&quot;0.002cm solid #000000&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица3&quot; style:family=&quot;table&quot;&gt;	&lt;style:table-properties style:width=&quot;18cm&quot; style:rel-width=&quot;100%&quot; fo:margin-left=&quot;0cm&quot; table:align=&quot;left&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица3.A&quot; style:family=&quot;table-column&quot;&gt;	&lt;style:table-column-properties style:column-width=&quot;7.498cm&quot; style:rel-column-width=&quot;4251*&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица3.B&quot; style:family=&quot;table-column&quot;&gt;	&lt;style:table-column-properties style:column-width=&quot;3.5cm&quot; style:rel-column-width=&quot;1984*&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица3.C&quot; style:family=&quot;table-column&quot;&gt;	&lt;style:table-column-properties style:column-width=&quot;7.003cm&quot; style:rel-column-width=&quot;3970*&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица3.1&quot; style:family=&quot;table-row&quot;&gt;	&lt;style:table-row-properties style:keep-together=&quot;false&quot; fo:keep-together=&quot;always&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица3.A1&quot; style:family=&quot;table-cell&quot;&gt;	&lt;style:table-cell-properties fo:padding=&quot;0cm&quot; fo:border=&quot;none&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица3.B1&quot; style:family=&quot;table-cell&quot;&gt;	&lt;style:table-cell-properties fo:padding=&quot;0cm&quot; fo:border-left=&quot;none&quot; fo:border-right=&quot;none&quot; fo:border-top=&quot;none&quot; fo:border-bottom=&quot;0.002cm solid #000000&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;Таблица3.C1&quot; style:family=&quot;table-cell&quot;&gt;	&lt;style:table-cell-properties style:vertical-align=&quot;bottom&quot; fo:padding=&quot;0.101cm&quot; fo:border=&quot;none&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;P1&quot; style:family=&quot;paragraph&quot; style:parent-style-name=&quot;ОК_20_Основной&quot; style:master-page-name=&quot;&quot;&gt;	&lt;style:paragraph-properties style:page-number=&quot;auto&quot; fo:keep-with-next=&quot;always&quot;/&gt;	&lt;/style:style&gt;	&lt;style:style style:name=&quot;P2&quot; style:family=&quot;paragraph&quot; style:parent-style-name=&quot;ОК_20_Текст_20_Смешанного_20_списка_20_1&quot; style:list-style-name=&quot;ОК_20_Смешанный_20_список_20_1&quot; style:master-page-name=&quot;&quot;&gt;	&lt;style:paragraph-properties style:page-number=&quot;auto&quot; fo:keep-with-next=&quot;always&quot;/&gt;	&lt;/style:style&gt; 	&lt;/office:automatic-styles&gt; 	&lt;office:body&gt;	&lt;office:text text:use-soft-page-breaks=&quot;true&quot;&gt;	&lt;office:forms form:automatic-focus=&quot;false&quot; form:apply-design-mode=&quot;false&quot;/&gt;	&lt;text:sequence-decls&gt;	&lt;text:sequence-decl text:display-outline-level=&quot;0&quot; text:name=&quot;Illustration&quot;/&gt;	&lt;text:sequence-decl text:display-outline-level=&quot;0&quot; text:name=&quot;Table&quot;/&gt;	&lt;text:sequence-decl text:display-outline-level=&quot;0&quot; text:name=&quot;Text&quot;/&gt;	&lt;text:sequence-decl text:display-outline-level=&quot;0&quot; text:name=&quot;Drawing&quot;/&gt;	&lt;/text:sequence-decls&gt;	&lt;text:p text:style-name=&quot;ОК_20_Заголовок_20_приказа&quot;&gt;</odt>
+    <binder-content-viewer>
+        <data-id>Тип документа ИП</data-id>
+    </binder-content-viewer>
+    <odt>&lt;/text:p&gt;&lt;table:table table:name=&quot;Таблица1&quot; table:style-name=&quot;Таблица1&quot;&gt;&lt;table:table-column table:style-name=&quot;Таблица1.A&quot;/&gt;&lt;table:table-column table:style-name=&quot;Таблица1.B&quot;/&gt;&lt;table:table-row&gt;&lt;table:table-cell table:style-name=&quot;Таблица1.A1&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name=&quot;ОК_20_Содержимое_20_таблицы_20_14пт&quot;&gt;«___» ___________ 20__ г.&lt;/text:p&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица1.A1&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name=&quot;ОК_20_Содержимое_20_таблицы_20_14пт_20_по_20_правому_20_краю&quot;&gt;№ ___________&lt;/text:p&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;/table:table&gt;&lt;text:p text:style-name=&quot;ОК_20_Средний_20_отступ&quot;/&gt;&lt;text:p text:style-name=&quot;ОК_20_Левая_20_колонка&quot;&gt;Об определении мест хранения&lt;text:line-break/&gt;материальных носителей&lt;text:line-break/&gt;персональных данных&lt;/text:p&gt;&lt;text:p text:style-name=&quot;ОК_20_Средний_20_отступ&quot;/&gt;&lt;text:p text:style-name=&quot;ОК_20_Основной&quot;&gt;В целях обеспечения сохранности материальных носителей персональных данных, обрабатываемых в </odt>
+    <binder-content-viewer>
+        <data-id>Сокращенное название организации ПП</data-id>
+    </binder-content-viewer>
+    <if>
+        <if-what>
+            <equals>
+                <typed-value>
+                    <type>string</type>
+                        <value>
+                            <binder-content-viewer>
+                                <data-id>Тип документа ИП</data-id>
+                            </binder-content-viewer>
+                        </value>
+                </typed-value>
+                <typed-value>
+                    <type>string</type>
+                    <value>приказ</value>
+                </typed-value>
+            </equals>
+        </if-what>
+        <if-then>
+            <odt>, &lt;/text:p&gt;&lt;text:p text:style-name="ОК_20_Малый_20_отступ"/&gt;&lt;text:p text:style-name="ОК_20_Основной_20_прописные_20_буквы"&gt;приказываю:</odt>
+        </if-then>
+        <if-else>
+            <if>
+                <if-what>
+                    <equals>
+                        <typed-value>
+                            <type>string</type>
+                                <value>
+                                    <binder-content-viewer>
+                                        <data-id>Тип документа ИП</data-id>
+                                    </binder-content-viewer>
+                                </value>
+                        </typed-value>
+                        <typed-value>
+                            <type>string</type>
+                            <value>постановление</value>
+                        </typed-value>
+                    </equals>
+                </if-what>
+                <if-then>
+                    <odt>, </odt>
+                    <binder-content-viewer>
+                        <data-id>Сокращенное название организации ИП</data-id>
+                    </binder-content-viewer>
+                    <odt> постановляет:</odt>
+                </if-then>
+                <if-else>
+                    <odt>:</odt>
+                </if-else>
+            </if>
+        </if-else>
+    </if>
+    <odt>&lt;/text:p&gt;&lt;text:p text:style-name="ОК_20_Малый_20_отступ"/&gt;&lt;text:list xml:id=&quot;list1919620174420501393&quot; text:style-name="ОК_20_Смешанный_20_список_20_1"&gt;&lt;text:list-item&gt;&lt;text:p text:style-name=&quot;ОК_20_Текст_20_Смешанного_20_списка_20_1&quot;&gt;Определить места хранения материальных носителей персональных данных и назначить лиц, ответственных за хранение материальных носителей персональных данных, в соответствии с перечнем, прилагаемым к </odt>
+    <rows-binder>
+        <select>
+            <select-what>
+                <table-column>
+                    <table-name>REF_DOCUMENT_ADMINISTRATIVE_TYPE</table-name>
+                    <column-name>NAME_DC</column-name>
+                </table-column>
+            </select-what>
+            <select-from>
+                <data-id>Настройки пользователя</data-id>
+            </select-from>
+        </select>
+        <binder-content>
+            <bind>
+                <table-column>
+                    <table-name>REF_DOCUMENT_ADMINISTRATIVE_TYPE</table-name>
+                    <column-name>NAME_DC</column-name>
+                </table-column>
+            </bind>
+        </binder-content>
+    </rows-binder>
+    <odt>.&lt;/text:p&gt;&lt;/text:list-item&gt;&lt;text:list-item&gt;&lt;text:p text:style-name=&quot;ОК_20_Текст_20_Смешанного_20_списка_20_1&quot;&gt;Лицу, ответственному за организацию обработки персональных данных, обеспечить</odt>
+    <if>
+        <if-what>
+            <is-null>
+                <typed-value>
+                    <type>date</type>
+                    <value>
+                        <binder-content-viewer>
+                            <data-id>Дата выдачи (от пользователя)</data-id>
+                        </binder-content-viewer>
+                    </value>
+                </typed-value>
+            </is-null>
+        </if-what>
+        <if-then/>
+        <if-else>
+            <odt> в срок до </odt>
+            <binder-content-viewer>
+                <data-id>Дата выдачи (от пользователя)</data-id>
+            </binder-content-viewer>
+        </if-else>
+    </if>
+    <odt> выдачу лицам, ответственным за хранение материальных носителей персональных данных, перечней лиц, имеющих право доступа к соответствующим носителям, подготовленных на основе Перечня должностей, назначение на которые предполагает доступ к персональным данным или их обработку.&lt;/text:p&gt;&lt;/text:list-item&gt;&lt;text:list-item&gt;&lt;text:p text:style-name=&quot;ОК_20_Текст_20_Смешанного_20_списка_20_1&quot;&gt;Лицам, ответственным за хранение материальных носителей персональных данных, обеспечить:&lt;/text:p&gt;&lt;text:list&gt;&lt;text:list-item&gt;&lt;text:p text:style-name=&quot;ОК_20_Текст_20_Смешанного_20_списка_20_1&quot;&gt;выдачу материальных носителей персональных данных только лицам, имеющим право доступа к ним;&lt;/text:p&gt;&lt;/text:list-item&gt;&lt;text:list-item&gt;&lt;text:p text:style-name=&quot;ОК_20_Текст_20_Смешанного_20_списка_20_1&quot;&gt;контроль своевременного возврата материальных носителей персональных данных;&lt;/text:p&gt;&lt;/text:list-item&gt;&lt;text:list-item&gt;&lt;text:p text:style-name=&quot;ОК_20_Текст_20_Смешанного_20_списка_20_1&quot;&gt;своевременную актуализацию во взаимодействии с лицом, ответственным за организацию обработки персональных данных, перечней лиц, имеющих право доступа к соответствующим носителям;&lt;/text:p&gt;&lt;/text:list-item&gt;&lt;text:list-item&gt;</odt>
+    <if>
+        <if-what>
+            <is-null-or-empty>
+                <select>
+                    <select-what>
+                        <table-column>
+                            <table-name>DOCUMENT</table-name>
+                            <column-name>ID</column-name>
+                        </table-column>
+                    </select-what>
+                    <select-from>
+                        <data-id>Таблица с отменяемым документом</data-id>
+                    </select-from>
+                </select>
+            </is-null-or-empty>
+        </if-what>
+        <if-then>
+            <odt>&lt;text:p text:style-name=&quot;P2&quot;&gt;уведомление лица, ответственного за организацию обработки персональных данных, о случаях утраты материальных носителей персональных данных, а также о попытках несанкционированного доступа к ним.&lt;/text:p&gt;&lt;/text:list-item&gt;&lt;/text:list&gt;&lt;/text:list-item&gt;</odt>
+        </if-then>
+        <if-else>
+            <odt>&lt;text:p text:style-name=&quot;ОК_20_Текст_20_Смешанного_20_списка_20_1&quot;&gt;уведомление лица, ответственного за организацию обработки персональных данных, о случаях утраты материальных носителей персональных данных, а также о попытках несанкционированного доступа к ним.&lt;/text:p&gt;&lt;/text:list-item&gt;&lt;/text:list&gt;&lt;/text:list-item&gt;</odt>
+            <rows-binder>
+                <select>
+                    <select-what>
+                        <all/>
+                    </select-what>
+                    <select-from>
+                        <data-id>Таблица с отменяемым документом</data-id>
+                    </select-from>
+                </select>
+                <binder-content>
+                    <odt>&lt;text:list-item&gt;&lt;text:p text:style-name=&quot;P2&quot;&gt;Приказ </odt>
+                    <bind>
+                        <table-column>
+                            <table-name>DOCUMENT</table-name>
+                            <column-name>APPROVAL_DOC_DETAILS</column-name>
+                        </table-column>
+                    </bind>
+                    <odt> признать утратившим силу.&lt;/text:p&gt;&lt;/text:list-item&gt;</odt>
+                </binder-content>
+            </rows-binder>
+        </if-else>
+    </if>
+    <odt>&lt;/text:list&gt;&lt;text:p text:style-name="P1"/&gt;&lt;table:table table:name=&quot;Таблица3&quot; table:style-name=&quot;Таблица3&quot;&gt;&lt;table:table-column table:style-name=&quot;Таблица3.A&quot;/&gt;&lt;table:table-column table:style-name=&quot;Таблица3.B&quot;/&gt;&lt;table:table-column table:style-name=&quot;Таблица3.C&quot;/&gt;&lt;table:table-row table:style-name="Таблица3.1"&gt;&lt;table:table-cell table:style-name=&quot;Таблица3.A1&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"&gt;</odt>
+    <binder-content-viewer>
+        <data-id>Наименование должности руководителя ИПб</data-id>
+    </binder-content-viewer>
+    <odt>&lt;/text:p&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица3.B1&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name=&quot;ОК_20_Содержимое_20_таблицы_20_14пт&quot;/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица3.C1&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name=&quot;ОК_20_Содержимое_20_таблицы_20_14пт&quot;&gt;</odt>
+    <binder-content-viewer>
+        <data-id>ФИО руководителя ИП</data-id>
+    </binder-content-viewer>
+    <odt>&lt;/text:p&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;/table:table&gt;&lt;text:p text:style-name="ОК_20_Основной"/&gt;&lt;text:p text:style-name=&quot;ОК_20_Заголовок_20_приложения&quot;&gt;ЛИСТ ОЗНАКОМЛЕНИЯ&lt;/text:p&gt;&lt;text:p text:style-name="ОК_20_Основной_20_центр"&gt;</odt>
+    <rows-binder>
+        <select>
+            <select-what>
+                <table-column>
+                    <table-name>REF_LABOR_LAW_SUBJECT</table-name>
+                    <column-name>NAME_PLURAL_GC</column-name>
+                </table-column>
+            </select-what>
+            <select-from>
+                <data-id>Настройки пользователя</data-id>
+            </select-from>
+        </select>
+        <binder-content>
+            <bind>
+                <table-column>
+                    <table-name>REF_LABOR_LAW_SUBJECT</table-name>
+                    <column-name>NAME_PLURAL_GC</column-name>
+                </table-column>
+            </bind>
+        </binder-content>
+    </rows-binder>
+    <odt> с </odt>
+    <rows-binder>
+        <select>
+            <select-what>
+                <table-column>
+                    <table-name>REF_DOCUMENT_ADMINISTRATIVE_TYPE</table-name>
+                    <column-name>NAME_IC</column-name>
+                </table-column>
+            </select-what>
+            <select-from>
+                <data-id>Настройки пользователя</data-id>
+            </select-from>
+        </select>
+        <binder-content>
+            <bind>
+                <table-column>
+                    <table-name>REF_DOCUMENT_ADMINISTRATIVE_TYPE</table-name>
+                    <column-name>NAME_IC</column-name>
+                </table-column>
+            </bind>
+        </binder-content>
+    </rows-binder>
+    <if>
+        <if-what>
+            <equals>
+                <typed-value>
+                    <type>string</type>
+                    <value>
+                        <binder-content-viewer>
+                            <data-id>Тип документа ИП</data-id>
+                        </binder-content-viewer>
+                    </value>
+                </typed-value>
+                <typed-value>
+                    <type>string</type>
+                    <value>постановление</value>
+                </typed-value>
+            </equals>
+        </if-what>
+        <if-then/>
+        <if-else>
+            <odt> </odt>
+            <binder-content-viewer>
+                <data-id>Наименование должности руководителя РП</data-id>
+            </binder-content-viewer>
+        </if-else>
+    </if>
+        <odt> </odt>
+        <binder-content-viewer>
+            <data-id>Сокращенное название организации РП</data-id>
+        </binder-content-viewer>
+        <odt> № ___ от «___» __________ 20__ г.&lt;/text:p&gt;&lt;text:p text:style-name="ОК_20_Малый_20_отступ"/&gt;&lt;table:table table:name=&quot;Таблица2&quot; table:style-name=&quot;Таблица2&quot;&gt;&lt;table:table-column table:style-name=&quot;Таблица2.A&quot;/&gt;&lt;table:table-column table:style-name=&quot;Таблица2.B&quot;/&gt;&lt;table:table-column table:style-name=&quot;Таблица2.C&quot;/&gt;&lt;table:table-column table:style-name=&quot;Таблица2.D&quot;/&gt;&lt;table:table-row table:style-name=&quot;Таблица2.1&quot;&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A1&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Заголовок_20_столбца_20_таблицы_20_12пт"&gt;№ п/п&lt;/text:p&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A1&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Заголовок_20_столбца_20_таблицы_20_12пт"&gt;Фамилия, инициалы&lt;/text:p&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A1&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Заголовок_20_столбца_20_таблицы_20_12пт"&gt;Подпись&lt;/text:p&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.D1&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Заголовок_20_столбца_20_таблицы_20_12пт"&gt;Дата&lt;/text:p&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;table:table-row table:style-name=&quot;Таблица2.1&quot;&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.D2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;table:table-row table:style-name=&quot;Таблица2.1&quot;&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.D2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;table:table-row table:style-name=&quot;Таблица2.1&quot;&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.D2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;table:table-row table:style-name=&quot;Таблица2.1&quot;&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.D2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;table:table-row table:style-name=&quot;Таблица2.1&quot;&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.D2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;table:table-row table:style-name=&quot;Таблица2.1&quot;&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.D2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;table:table-row table:style-name=&quot;Таблица2.1&quot;&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.D2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;table:table-row table:style-name=&quot;Таблица2.1&quot;&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.D2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;table:table-row table:style-name=&quot;Таблица2.1&quot;&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.D2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;table:table-row table:style-name=&quot;Таблица2.1&quot;&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.A2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;table:table-cell table:style-name=&quot;Таблица2.D2&quot; office:value-type=&quot;string&quot;&gt;&lt;text:p text:style-name="ОК_20_Содержимое_20_таблицы_20_14пт"/&gt;&lt;/table:table-cell&gt;&lt;/table:table-row&gt;&lt;/table:table&gt;&lt;text:p text:style-name="ОК_20_Основной"/&gt;&lt;/office:text&gt;&lt;/office:body&gt;&lt;/office:document-content&gt;</odt>
+</document-content>
